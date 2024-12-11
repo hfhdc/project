@@ -81,7 +81,8 @@ if __name__ == "__main__":
     image_path = 'lineart.jpg'  # Input image file
     bw_output_path = 'black_and_white_image.jpg'
     binary_output_path = 'binary_output.txt'
-    serial_port = '/dev/ttyUSB0'  # UPDATE with your xArm's serial port
+    robot_ip = '192.168.1.158'  
+    port = 18333 
 
     # Step 1: Convert image to black-and-white
     bw_image_path = convert_to_black_and_white(image_path, bw_output_path)
